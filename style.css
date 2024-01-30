@@ -81,6 +81,7 @@ ul li a{
     align-items: flex-start;
     width: 100%;
     padding:15px 17px 12px 12px;
+    margin-bottom: 1rem;
 }
 
 ul li a:hover{
@@ -113,7 +114,7 @@ li a .menu-item-icon{
     justify-content: space-between;
     border:1px solid #F7F3FC;
     border-radius: 1rem;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     
 }
 
@@ -186,6 +187,67 @@ span#burguer {
 
 .menu-social{
     margin-top: 5vh;
+}
+
+#linkAtivo {
+    background-color: #F7F3FC ;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+.card-conteudo-light{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-conteudo-light h2{
+    font-size: 2.25rem;
+    color: #7B3BD4;
+    margin-bottom: 1rem;
+}
+
+.card-conteudo-light p{
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.card-conteudo-light img{
+    margin-bottom: 3rem;
+    width: 50vw;
+}
+
+.portfolio-project{
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2.5rem;
+    /* width: 100vw; */
+    border-radius: 1.5rem;
+    /* position: fixed; */
+    /* height: 92vh; */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    padding-left: 30vw;
+
+}
+
+.portfolio-project .card{
+     background-color: #ffffff;
+    /* max-width: 188vw; */
+    /* min-width: 19vw; */
+    /* max-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px; */
+    padding: 24px 24px 0px 24px;
+    border-radius: 1.5rem;
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1380px) {
@@ -306,7 +368,19 @@ span#burguer {
     }
 
 
-
+    .portfolio-project {
+        margin-top: 2.5rem;
+        margin-right: 2rem;
+        margin-bottom: 2.5rem;
+        /* width: 100vw; */
+        border-radius: 1.5rem;
+        /* position: fixed; */
+        /* height: 92vh; */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-left: 1vw;
+    }
 
 
 }
